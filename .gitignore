@@ -1,0 +1,33 @@
+# gstack-zh 中文翻译版的 .gitignore
+# 仓库内容: 仅翻译后的 markdown 文件(README/CLAUDE/SKILL.md/docs/sections/templates)
+# 无代码/二进制/构建产物,大部分规则保留防御性。
+
+# macOS / Windows 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时与日志
+*.log
+*.tmp
+*.bak
+
+# 若以后追加翻译工具产物
+/dist/
+/build/
+/out/
+/node_modules/
+/.bun/
+
+# 私有的本地覆写
+.env
+.env.local
+.env.*.local
+!/.env.example
